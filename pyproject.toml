@@ -16,9 +16,7 @@ dependencies = [
     "thefuzz"
 ]
 
-[tool.hatch.build]
-packages = ["src"]
+[tool.hatch.build.targets.wheel]
+packages = ["src/rowanqol"]
 
-[tool.hatch.build.sources]
-"src" = "rowanqol"
 

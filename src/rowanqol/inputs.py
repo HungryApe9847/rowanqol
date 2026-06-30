@@ -1,13 +1,13 @@
-def int_input():
+def int_input(prompt):
     while True:
-        num = int(input("Enter a number: "))
+        num = int(input(prompt))
         if num.is_integer():
             break
     return num
 
-def float_input():
+def float_input(prompt):
     while True:
-        num = float(input("Enter a number: "))
+        num = float(input(prompt))
         if isinstance(num, float):
             break
     return num
