@@ -1,1 +1,1 @@
-from rowanqol.src.rowanqol.inputs import int_input, float_input
+from .inputs import int_input, float_input
