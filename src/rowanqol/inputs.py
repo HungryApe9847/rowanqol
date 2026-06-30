@@ -1,13 +1,17 @@
-def int_input(prompt):
+def int_input(prompt, error_msg="Enter an integer."):
     while True:
-        num = int(input(prompt))
-        if num.is_integer():
+        try:
+            num = int(input(prompt))
             break
+        except ValueError:
+            print(error_msg)
     return num
 
-def float_input(prompt):
+def float_input(prompt, error_msg="Enter a float."):
     while True:
-        num = float(input(prompt))
-        if isinstance(num, float):
+        try:
+            num = float(input(prompt))
             break
+        except ValueError:
+            print(error_msg)
     return num
