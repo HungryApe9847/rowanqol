@@ -1,0 +1,18 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"  # 👈 Make sure this is all on one single line!
+
+[project]
+name = "rowanqol"  # 👈 Swap "yournickname" for your real name or gaming handle
+version = "0.0.1"
+description = "QoL stuff for python!"
+readme = "README.md"
+requires-python = ">=3.14"
+authors = [
+    { name = "Rowan", email = "rowanliamjones@gmail.com" }  # 👈 Put your info here!
+]
+
+dependencies = [
+    "thefuzz"
+]
+
