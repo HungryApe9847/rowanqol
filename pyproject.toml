@@ -1,23 +1,24 @@
 [build-system]
 requires = ["hatchling"]
-build-backend = "hatchling.build"  # 👈 Make sure this is all on one single line!
+build-backend = "hatchling.build"
 
 [project]
-name = "rowanqol"  # 👈 Swap "yournickname" for your real name or gaming handle
+name = "rowanqol"
 version = "0.0.1"
 description = "QoL stuff for python!"
 readme = "README.md"
 requires-python = ">=3.14"
 authors = [
-    { name = "Rowan", email = "rowanliamjones@gmail.com" }  # 👈 Put your info here!
+    { name = "Rowan", email = "rowanliamjones@gmail.com" }
 ]
 
 dependencies = [
     "thefuzz"
 ]
 
-[tool.hatch.build.targets.wheel]
+[tool.hatch.build]
 packages = ["src"]
 
-[tool.hatch.build.targets.wheel.sources]
+[tool.hatch.build.sources]
 "src" = "rowanqol"
+
