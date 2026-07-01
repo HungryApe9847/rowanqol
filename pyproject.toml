@@ -7,7 +7,7 @@ name = "rowanqol"
 version = "0.4.0"
 description = "QoL stuff for python!"
 readme = "README.md"
-requires-python = ">=3.14"
+requires-python = ">=3.8"
 authors = [
     { name = "Rowan", email = "rowanliamjones@gmail.com" }
 ]
