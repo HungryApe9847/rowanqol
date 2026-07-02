@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "rowanqol"
-version = "1.0.0"
+version = "1.1.0"
 description = "QoL stuff for python!"
 readme = "README.md"
 requires-python = ">=3.8"
